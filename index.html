@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./vue.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./style.css" />
-    <title>Techno</title>
+    <title>PlanetCat</title>
   </head>
   <body>
     <div id="app">
       <header class="header">
-        <img class="logo" src="./assets/techno.svg" alt="techno" >
+        <img class="logo" src="./assets/planetcat.png" alt="planetcat">
         <div class="carrinho_menu" @click="carrinhoAtivo = true">{{carrinhoTotal | numeroPreco}} | {{carrinho.length}}</div>
       </header>
 
@@ -62,11 +62,11 @@
             <ul class="carrinho_lista">
               <li v-for="(item, index) in carrinho" class="carrinho_item">
               <p>{{item.nome}}</p>
-              <p class="carrinho_preco">{{item.preco | numeroPreco}}</p>
+              <p class="carrinho_preco">Valor unitário: {{item.preco | numeroPreco}}</p>
               <button class="carrinho_remover" @click="removerItem(index)">X</button>
               </li>
             </ul>
-            <p class="carrinho_total">{{carrinhoTotal | numeroPreco}}</p>
+            <p class="carrinho_total">Valor total: {{carrinhoTotal | numeroPreco}}</p>
             <button class="carrinho_finalizar">Finalizar Compra</button>
           </div>
           <p v-else>O carrinho está vazio.</p>

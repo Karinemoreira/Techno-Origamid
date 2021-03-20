@@ -1,0 +1,20 @@
+{
+  "id": "comedouros",
+  "nome": "Comedouro",
+  "preco": 99,
+  "descricao": "Comedouro para gatos com estampa.",
+  "estoque": 20,
+  "img": "./api/produtos/comedouros/comedouro.png",
+  "avaliacoes": [
+    {
+      "nome": "Rogério",
+      "estrelas": 5,
+      "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
+    },
+    {
+      "nome": "Nathália",
+      "estrelas": 4,
+      "descricao": "Gostei, mas o preço poderia ser melhor."
+    }
+  ]
+}

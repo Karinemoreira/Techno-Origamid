@@ -1,0 +1,20 @@
+{
+  "id": "brinquedos",
+  "nome": "Brinquedo",
+  "preco": 69,
+  "descricao": "Kit de brinquedos para gatos, composto de bola com guizo, bola de borracha e ratinho.",
+  "estoque": 5,
+  "img": "./api/produtos/brinquedos/brinquedos.jpg",
+  "avaliacoes": [
+    {
+      "nome": "Rogério",
+      "estrelas": 5,
+      "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
+    },
+    {
+      "nome": "Nathália",
+      "estrelas": 4,
+      "descricao": "Gostei, mas o preço poderia ser melhor."
+    }
+  ]
+}

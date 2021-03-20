@@ -12,8 +12,8 @@ ul {
 }
 
 body {
-  background: linear-gradient(to right,#1a1a1a 30%, #ffffff 30%);
-  font-family: "Noto Serif";
+  background: linear-gradient(to right,#df9adf 70%, #fff 50%);
+  font-family: "Open Sans";
 }
 
 #app {
@@ -30,7 +30,7 @@ body {
 }
 
 .logo {
-  width: 80px;
+  width: 150px;
 }
 
 .carrinho_menu::after {
@@ -51,7 +51,7 @@ body {
 /* LISTA PRODUTOS */
 .produtos{
   max-width: 900px;
-  margin: 100px auto 0 auto;
+  margin: 50px auto 0 auto;
 }
 
 .produto {
@@ -64,7 +64,8 @@ body {
 }
 
 .produto_img {
-  max-width: 300px;
+  width: 300px;
+  height: 199px;
   margin-right: 40px;
 }
 
@@ -122,7 +123,7 @@ body {
 }
 .modal_fechar {
   border-radius: 50%;
-  border: 2px solid #000;
+  border: 2px solid #df9adf;
   width: 40px;
   height: 40px;
   position: absolute;
@@ -155,13 +156,13 @@ body {
 
 .modal_btn {
   margin-top: 80px;
-  background: #000;
+  background: #df9adf;
   cursor: pointer;
   color: #ffffff;
   border: none;
   font-size: 1rem;
   padding: 10px 25px;
-  font-family: "Noto Serif";
+  font-family: "Open Sans";
 }
 
 .modal_btn:active {
@@ -183,7 +184,7 @@ body {
   font-size: 1.75rem;
 }
 .avaliacao {
-  border-bottom: 1px solid rgba(0,0,0,.1);
+  border-bottom: 1px solid #df9adf;
   padding-bottom: 20px;
 }
 
@@ -228,7 +229,7 @@ body {
   background: #ffffff;
   display: inline-block;
   padding: 20px 40px;
-  border: 2px solid #000;
+  border: 2px solid #df9adf;
   box-shadow: 0px 3px 4px rgba(0,0,0,.1), 0px 4px 10px rgba(0,0,0,.2);
 }
 
@@ -271,14 +272,14 @@ body {
 .carrinho_item {
   display: grid;
   grid-template-columns: 1fr 1fr 50px;
-  border-bottom: 1px solid rgba(0,0,0,.1);
+  border-bottom: 1px solid #df9adf;
   padding: 10px
 }
 
 .carrinho_titulo {
   margin-bottom: 10px;
   padding-bottom: 20px;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #df9adf;
 }
 
 .carrinho_remover {
@@ -296,12 +297,12 @@ body {
   text-align: right;
   padding: 10px 50px 10px 0;
   margin-bottom: 20px;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #df9adf;
 }
 
 .carrinho_fechar {
   border-radius: 50%;
-  border: 2px solid #000;
+  border: 2px solid #df9adf;
   width: 40px;
   height: 40px;
   position: absolute;
@@ -315,13 +316,13 @@ body {
 .carrinho_finalizar {
   display: block;
   margin-left: auto;
-  background: #000;
+  background: #df9adf;
   color: #ffffff;
   cursor: pointer;
   font-size: 1rem;
   padding: 10px 25px;
   border: none;
-  font-family: "Noto Serif";
+  font-family: "Open Sans";
 }
 
 /* RESPONSIVO */

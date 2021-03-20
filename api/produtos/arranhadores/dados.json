@@ -1,0 +1,20 @@
+{
+  "id": "arranhadores",
+  "nome": "Arranhador",
+  "preco": 299,
+  "descricao": "Arranhador em formato de cone, feito em sisal.",
+  "estoque": 10,
+  "img": "./api/produtos/arranhadores/gateiro-arranhador-1.jpg",
+  "avaliacoes": [
+    {
+      "nome": "Fábio",
+      "estrelas": 5,
+      "descricao": "Gostei muito, atendeu todas as minhas necessidades."
+    },
+    {
+      "nome": "Natália",
+      "estrelas": 4,
+      "descricao": "Bom produto, mas poderia ser mais barato."
+    }
+  ]
+}

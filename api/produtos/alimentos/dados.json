@@ -1,0 +1,20 @@
+{
+  "id": "alimentos",
+  "nome": "Ração",
+  "preco": 99,
+  "descricao": "Ração premium para gatos adultos.",
+  "estoque": 20,
+  "img": "./api/produtos/alimentos/alimentos.jpg",
+  "avaliacoes": [
+    {
+      "nome": "Rogério",
+      "estrelas": 5,
+      "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
+    },
+    {
+      "nome": "Nathália",
+      "estrelas": 4,
+      "descricao": "Gostei, mas o preço poderia ser melhor."
+    }
+  ]
+}
